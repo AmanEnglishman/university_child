@@ -6,5 +6,5 @@ from .models import Classes
 
 class ClassesListView(generic.ListView):
     model = Classes
-    template_name = 'index.html'
+    template_name = 'classes.html'
     context_object_name = 'classes'
