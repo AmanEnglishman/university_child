@@ -8,3 +8,5 @@ class ClassesListView(generic.ListView):
     model = Classes
     template_name = 'classes.html'
     context_object_name = 'classes'
+
+class
